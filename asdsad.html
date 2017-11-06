@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	table,td,tr,th{border:1px solid black; border-collapse: collapse;}
+</style>
+</head>
+<body>
+
+<form action="/action_page.php">
+	<table>
+	<tr><th>Name</th><th>Value</th></tr>
+ 	<tr><td>First name:</td>
+ 	<td><input type="text" name="firstname" value="Mickey"></td>
+	</tr>
+
+ 	<tr><td>Last name:</td>
+ 	<td><input type="text" name="lastname" value="Mouse"></td>
+	</tr>
+
+  <tr><td>Gender<br></td>
+ <td>
+  	<input type="radio" name="gender" value="male" checked> Male<br>
+ 	<input type="radio" name="gender" value="female"> Female</td></tr>
+ <tr><td>Check all that apply</td>
+ <td><input type="checkbox" name="vehicle1" value="Bike"> I have a bike
+ <br>
+ <input type="checkbox" name="vehicle2" value="Car"> I have a car</td></tr>
+ <tr>
+ 	<td>comment<br></td>
+ 	<td><textarea name="message" rows="2" cols="20"></textarea></td>
+ </tr>
+ <tr>
+  <td colspan="2"><center><input type="submit" value="Submit"><center></td>
+</tr>
+</table>
+</form> 
+
+
+</body>
+</html>
